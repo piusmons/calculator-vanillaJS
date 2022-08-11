@@ -1,0 +1,113 @@
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-color: white;
+}
+
+body {
+
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #F2CF8D , #3B3F8C)
+}
+
+.header {
+   
+    display: block;
+    padding-bottom: 90px
+    
+}
+
+.inner_header {
+
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+#title {
+    color: #010326;
+    font-size: 40px;
+}
+
+
+.main-box {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 500px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+
+}
+
+.main-box > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: #F2CF8D;
+    opacity: 0.6
+}
+
+.main-box > button:hover {
+    background-color: #F2CF8D;
+    opacity: 0.9
+
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.hack {
+    display: flex;
+    justify-content: center;
+    
+}
+.output {
+    display: flex;
+    flex-wrap: wrap-reverse
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: black;
+    opacity:0.7;
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+    
+}   
+
+.lol {
+    max-width: 400px;
+    font-size: small;
+    opacity: 0.7;
+}
+
+.wew {
+    display: block;
+    max-width: 400px;
+    
+    overflow: scroll;
+}
+
+
+
+
+
+p {
+    word-wrap: break-word;
+    color: white;
+    word-break: break-all;
+    
+}
